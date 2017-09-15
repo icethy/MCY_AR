@@ -27,3 +27,34 @@
 
 如有问题，欢迎交流。 QQ：294378422 邮箱： 294378422@qq.com
 
+
+
+
+1. Need to include NSCameraUsageDescription & NSLocationWhenInUseUsageDescription permission in info.plist
+
+2. Import CoreMotion.framework & CoreLocation.framework
+
+How to use
+
+1. InitViewController and set datasource
+
+2. Invoke setAnnotations methods
+
+3. Present Controller
+
+4. Implement ARDataSource, And provide custom annotationView
+
+Note
+
+1. SDK could able to custom ARViewController/ARAnnotation/ARAnnotationView
+
+2. If customize ARViewController UI, New Class with ViewController that extend to MCYARViewController
+
+3. If customize ARAnnotationView UI, New Class with AnnotationView that extend to MCYARAnnotationView
+
+4. If customize ARAnnotation provide to data, New Class Annotation that extend to MCYARAnnotation;
+
+Details to demo
+
+Welcome to contact me。 QQ: 294378422 email: icethy@qq.com
+
